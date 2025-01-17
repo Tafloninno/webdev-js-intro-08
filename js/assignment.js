@@ -32,5 +32,17 @@ function findLargestNumber(arr){
     
 }
 
-// let test2 = findLargestNumber(myNumbers)
-// console.log(test2);
+let test2 = findLargestNumber(myNumbers)
+console.log(test2);
+
+function findAverage(arr){
+    let sum = 0
+    let count;
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i] 
+        count = arr.length
+    }
+    return sum / count
+}
+// let test3 = findAverage(myNumbers)
+// console.log(test3);

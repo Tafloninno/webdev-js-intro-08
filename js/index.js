@@ -32,3 +32,12 @@
 // }
 // let test1 = smallest()
 // console.log(test1);
+
+// let grades = [85, 90, 78, 92, 88];
+// let sum = 0;
+// for (let grade of grades) {
+//     sum += grade;
+// }
+
+// let average = sum / grades.length;
+// console.log(average);
