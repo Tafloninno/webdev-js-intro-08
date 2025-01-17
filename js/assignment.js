@@ -11,7 +11,7 @@ const myNumbers = [35, 130, 354, 100, 25, 134, 99, 200, 35];
 function findSmallestNumber(myNumbers){
     let minNum = myNumbers[0]
     for(let i = 1; i < myNumbers.length; i++){
-        if(myNumbers[i] <= minNum){
+        if(myNumbers[i] < minNum){
             minNum = myNumbers[i]
         }
     }
