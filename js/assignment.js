@@ -46,3 +46,13 @@ function findAverage(arr){
 }
 // let test3 = findAverage(myNumbers)
 // console.log(test3);
+
+function render(){
+    smallestNumberElement.innerText = findSmallestNumber(myNumbers)
+    largestNumberElement.innerText = findLargestNumber(myNumbers)
+    averageNumberElement.innerText = findAverage(myNumbers)
+}
+
+submissionBtn.addEventListener('click', function(){
+    render()
+})
